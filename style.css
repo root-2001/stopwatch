@@ -1,0 +1,58 @@
+body{
+ background-image: url(back.jpg);
+    
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+}
+.main {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+h1{
+    color: rgb(64, 255, 255)
+}
+
+.stopwatch {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px 0px 40px 0px;
+    background-color: transparent;
+    /* box-shadow: 2px 2px 19px gray; */
+   
+}
+.screen {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.screen td {
+    width: 60px;
+    margin: 0px 10px;
+   
+}
+
+.Time {
+    font-size: 20px;
+    color: white;
+}
+.buttons Button{
+    background-color: transparent;
+     border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 25px 10px;
+    padding: 10px 10px 8px  ;
+    background-color: grey;
+}
+button:hover{
+    color: cyan ;
+    box-shadow:  0 0 15px #3ec9c9;
+    background-color: black;
+}
